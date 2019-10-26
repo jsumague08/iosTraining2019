@@ -1,0 +1,6 @@
+framework module Pods_iospraktis {
+  umbrella header "Pods-iospraktis-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,22 +10,35 @@
 		5BE25C30235ED6BB0023305D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE25C2F235ED6BB0023305D /* AppDelegate.m */; };
 		5BE25C33235ED6BB0023305D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE25C32235ED6BB0023305D /* ViewController.m */; };
 		5BE25C36235ED6BB0023305D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE25C34235ED6BB0023305D /* Main.storyboard */; };
-		5BE25C38235ED6BD0023305D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE25C37235ED6BD0023305D /* Assets.xcassets */; };
 		5BE25C3B235ED6BD0023305D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE25C39235ED6BD0023305D /* LaunchScreen.storyboard */; };
 		5BE25C3E235ED6BD0023305D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE25C3D235ED6BD0023305D /* main.m */; };
+		5BF2944B2362865800C2B410 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2944A2362865800C2B410 /* User.m */; };
+		5BF2944E2362866F00C2B410 /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2944D2362866F00C2B410 /* UserViewModel.m */; };
+		5BF294512362950600C2B410 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF294502362950600C2B410 /* RegisterViewController.m */; };
+		5BF294562363E78D00C2B410 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF294552363E78D00C2B410 /* images.xcassets */; };
+		C633AD59D1FAAC904B4EE7F5 /* Pods_iospraktis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571F49D5BF24FC983F409A83 /* Pods_iospraktis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		448EDD1DC8DC8A72D9EFEBB7 /* Pods-iospraktis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iospraktis.debug.xcconfig"; path = "Target Support Files/Pods-iospraktis/Pods-iospraktis.debug.xcconfig"; sourceTree = "<group>"; };
+		571F49D5BF24FC983F409A83 /* Pods_iospraktis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iospraktis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE25C2B235ED6BB0023305D /* iospraktis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iospraktis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE25C2E235ED6BB0023305D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BE25C2F235ED6BB0023305D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5BE25C31235ED6BB0023305D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5BE25C32235ED6BB0023305D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5BE25C35235ED6BB0023305D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BE25C37235ED6BD0023305D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE25C3A235ED6BD0023305D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BE25C3C235ED6BD0023305D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BE25C3D235ED6BD0023305D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BF294492362865800C2B410 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5BF2944A2362865800C2B410 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5BF2944C2362866F00C2B410 /* UserViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
+		5BF2944D2362866F00C2B410 /* UserViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
+		5BF2944F2362950600C2B410 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		5BF294502362950600C2B410 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		5BF294552363E78D00C2B410 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		A1D1405C6C712847D37C9A86 /* Pods-iospraktis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iospraktis.release.xcconfig"; path = "Target Support Files/Pods-iospraktis/Pods-iospraktis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C633AD59D1FAAC904B4EE7F5 /* Pods_iospraktis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A25EB99A2DF5428C6E4C09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571F49D5BF24FC983F409A83 /* Pods_iospraktis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5BE25C22235ED6BA0023305D = {
 			isa = PBXGroup;
 			children = (
 				5BE25C2D235ED6BB0023305D /* iospraktis */,
 				5BE25C2C235ED6BB0023305D /* Products */,
+				A06A4C16989FB876E15E11DA /* Pods */,
+				0A25EB99A2DF5428C6E4C09C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +82,57 @@
 		5BE25C2D235ED6BB0023305D /* iospraktis */ = {
 			isa = PBXGroup;
 			children = (
+				5BF294552363E78D00C2B410 /* images.xcassets */,
+				5BF294482362861900C2B410 /* View */,
+				5BF294472362860F00C2B410 /* View Model */,
+				5BF29446236285EC00C2B410 /* Model */,
 				5BE25C2E235ED6BB0023305D /* AppDelegate.h */,
 				5BE25C2F235ED6BB0023305D /* AppDelegate.m */,
-				5BE25C31235ED6BB0023305D /* ViewController.h */,
-				5BE25C32235ED6BB0023305D /* ViewController.m */,
 				5BE25C34235ED6BB0023305D /* Main.storyboard */,
-				5BE25C37235ED6BD0023305D /* Assets.xcassets */,
 				5BE25C39235ED6BD0023305D /* LaunchScreen.storyboard */,
 				5BE25C3C235ED6BD0023305D /* Info.plist */,
 				5BE25C3D235ED6BD0023305D /* main.m */,
 			);
 			path = iospraktis;
+			sourceTree = "<group>";
+		};
+		5BF29446236285EC00C2B410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BF294492362865800C2B410 /* User.h */,
+				5BF2944A2362865800C2B410 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BF294472362860F00C2B410 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BF2944C2362866F00C2B410 /* UserViewModel.h */,
+				5BF2944D2362866F00C2B410 /* UserViewModel.m */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		5BF294482362861900C2B410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BE25C31235ED6BB0023305D /* ViewController.h */,
+				5BE25C32235ED6BB0023305D /* ViewController.m */,
+				5BF2944F2362950600C2B410 /* RegisterViewController.h */,
+				5BF294502362950600C2B410 /* RegisterViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A06A4C16989FB876E15E11DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				448EDD1DC8DC8A72D9EFEBB7 /* Pods-iospraktis.debug.xcconfig */,
+				A1D1405C6C712847D37C9A86 /* Pods-iospraktis.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BE25C41235ED6BD0023305D /* Build configuration list for PBXNativeTarget "iospraktis" */;
 			buildPhases = (
+				E783682EEBF5418E48F6049E /* [CP] Check Pods Manifest.lock */,
 				5BE25C27235ED6BB0023305D /* Sources */,
 				5BE25C28235ED6BB0023305D /* Frameworks */,
 				5BE25C29235ED6BB0023305D /* Resources */,
+				8E4D4255C6EEF4D35FC6DB1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,21 +194,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF294562363E78D00C2B410 /* images.xcassets in Resources */,
 				5BE25C3B235ED6BD0023305D /* LaunchScreen.storyboard in Resources */,
-				5BE25C38235ED6BD0023305D /* Assets.xcassets in Resources */,
 				5BE25C36235ED6BB0023305D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E4D4255C6EEF4D35FC6DB1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iospraktis/Pods-iospraktis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iospraktis/Pods-iospraktis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iospraktis/Pods-iospraktis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E783682EEBF5418E48F6049E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iospraktis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BE25C27235ED6BB0023305D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF2944B2362865800C2B410 /* User.m in Sources */,
+				5BF294512362950600C2B410 /* RegisterViewController.m in Sources */,
 				5BE25C33235ED6BB0023305D /* ViewController.m in Sources */,
 				5BE25C3E235ED6BD0023305D /* main.m in Sources */,
+				5BF2944E2362866F00C2B410 /* UserViewModel.m in Sources */,
 				5BE25C30235ED6BB0023305D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,10 +394,12 @@
 		};
 		5BE25C42235ED6BD0023305D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448EDD1DC8DC8A72D9EFEBB7 /* Pods-iospraktis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iospraktis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +412,12 @@
 		};
 		5BE25C43235ED6BD0023305D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D1405C6C712847D37C9A86 /* Pods-iospraktis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iospraktis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
