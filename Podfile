@@ -5,9 +5,9 @@ target 'iospraktis' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for iOSExam
+  # Pods for iospraktis
 pod 'IQKeyboardManager'
 
 end
 
-workspace 'iOSExam'
+workspace 'iospraktis'
